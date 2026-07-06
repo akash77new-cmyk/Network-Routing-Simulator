@@ -70,7 +70,6 @@ NetworkRoutingSimulator/
 ├── data/
 │   └── topology.txt     # Sample network topology
 ├── README.md
-└── Makefile
 ```
 
 ---
