@@ -1,0 +1,23 @@
+# Sample network topology for the Dynamic Network Routing Simulator
+# Format:
+#   ROUTER <id>              -- declares a router
+#   LINK   <a> <b> <cost>    -- declares an undirected link with a given cost
+#
+# Lines beginning with '#' are comments and blank lines are ignored.
+
+ROUTER R1
+ROUTER R2
+ROUTER R3
+ROUTER R4
+ROUTER R5
+ROUTER R6
+
+LINK R1 R2 4
+LINK R1 R3 2
+LINK R2 R3 1
+LINK R2 R4 5
+LINK R3 R4 8
+LINK R3 R6 10
+LINK R4 R5 2
+LINK R5 R6 3
+LINK R4 R6 6
