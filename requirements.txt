@@ -1,0 +1,11 @@
+Compiler:
+- g++ (C++17 compatible)
+
+Build Tool:
+- GNU Make
+
+Libraries:
+- Standard Template Library (STL)
+
+External Dependencies:
+- None
